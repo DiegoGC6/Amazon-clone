@@ -1,19 +1,23 @@
 import React from "react";
-import "./Header.css";
+import "../views/Header.css";
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import { Link } from "react-router-dom";
-import { useStateValue } from "./StateProvider";
-import { auth } from "./firebase";
+import { useStateValue } from "../StateProvider";
+import { auth } from "../firebase";
 
 function Header() {
   const [{ basket, user }, dispatch] = useStateValue();
 
 //   const handleAuthenticaton = () => {
 //     if (user) {
-//       auth.signOut();
+//         signOut(auth).then(() => {
+//             // Sign-out successful.
+//           }).catch((error) => {
+//             // An error happened.
+//           });
 //     }
-//   }
+// }
 
   return (
     <div className="header">
