@@ -4,7 +4,13 @@ This project attempts to clone some of the main features in the amazon website, 
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, 
+
+open a terminal and run 
+
+### `npm install`
+
+then, you can run:
 
 ### `npm start`
 
